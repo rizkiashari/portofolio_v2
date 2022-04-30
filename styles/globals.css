@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-[#0800a89a] to-[#93C7F6] py-2 px-6 rounded text-white-100;
+  }
+}
